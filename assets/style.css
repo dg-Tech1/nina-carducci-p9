@@ -110,8 +110,8 @@ body {
 }
 /* Cibler spécifiquement l'élément "Tous" */
 .nav-link.active.active-tag[data-images-toggle="all"] {
-  color: #000; /* Couleur du texte */
-  background-color: #fff; /* Couleur de l'arrière-plan */
+  color: #fff; /* Couleur du texte */
+  background-color: #BEB45A; /* Couleur de l'arrière-plan */
   /* Autres styles si nécessaire */
 }
 .item-column {
