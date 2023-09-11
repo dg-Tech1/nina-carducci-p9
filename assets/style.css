@@ -101,18 +101,12 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: #000;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
 	color: #000
-}
-/* Cibler spécifiquement l'élément "Tous" */
-.nav-link.active.active-tag[data-images-toggle="all"] {
-  color: #fff; /* Couleur du texte */
-  background-color: #BEB45A; /* Couleur de l'arrière-plan */
-  /* Autres styles si nécessaire */
 }
 .item-column {
 	position: relative;
