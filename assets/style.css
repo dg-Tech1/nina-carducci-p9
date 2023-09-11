@@ -108,6 +108,12 @@ body {
 .nav-pills .nav-link {
 	color: #000
 }
+/* Cibler spécifiquement l'élément "Tous" */
+.nav-link.active.active-tag[data-images-toggle="all"] {
+  color: #000; /* Couleur du texte */
+  background-color: #fff; /* Couleur de l'arrière-plan */
+  /* Autres styles si nécessaire */
+}
 .item-column {
 	position: relative;
 	margin-bottom: 0 !important;
