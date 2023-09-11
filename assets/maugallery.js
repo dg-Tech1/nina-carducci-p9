@@ -22,7 +22,8 @@
           var theTag = $(this).data("gallery-tag");
           if (
             options.showTags &&
-            theTag !== undefine            tagsCollection.indexOf(theTag) === -1
+            theTag !== undefined &&
+            tagsCollection.indexOf(theTag) === -1
           ) {
             tagsCollection.push(theTag);
           }
@@ -219,7 +220,7 @@
     },
     showItemTags(gallery, position, tags) {
       var tagItems =
-'<li class="nav-item"><span class="nav-link active active-tag" data-images-toggle="all">Tous</span></li>';
+        '<li class="nav-item"><span class="nav-link active active-tag"  data-images-toggle="all">Tous</span></li>';
       $.each(tags, function(index, value) {
         tagItems += `<li class="nav-item active">
                 <span class="nav-link"  data-images-toggle="${value}">${value}</span></li>`;
